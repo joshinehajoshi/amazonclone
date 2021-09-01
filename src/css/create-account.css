@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+.create-account-div {
+    text-align: center;
+}
+
+.create-account-logo {
+    width: 8%;
+}
+
+.create-account-card {
+    margin: auto;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 28px;
+}
+
+.form-text {
+    color: black;
+}
+
+.form-small-text {
+    margin-top: 12px;
+}
+
+.continue-btn{
+    width: 100%;
+    background-color: #f0c14b;
+    border: 1px black solid;
+}
+
+.form-small-text1 {
+    text-decoration: none;
+}

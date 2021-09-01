@@ -1,0 +1,202 @@
+body {
+    background-color: #e7e7e7db;
+}
+.header {
+    height: 60px;
+    background-color: #233448;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.amazon-logo {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.address {
+    color: white ;
+    margin-left: 15px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.search-bar {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.search-bar:hover {
+    border-color: #ff9800;
+}
+
+.search-bar-btn {
+    background-color: #ff9800;
+}
+
+.search-bar-btn:hover {
+    background-color: #f1c37e;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgb(195, 194, 194);
+    color: black;
+    border-color: none;
+    border: none;
+}
+
+.btn-primary:hover {
+color: #fff;
+background-color: #bbbec2;
+border-color: #ff9800;
+}
+
+h6 {
+    margin-bottom: 0px;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ff9800;
+    outline: 0;
+    box-shadow: none;
+}
+
+.dropdown-toggle {
+    font-size: 12px;
+}
+
+.flag{
+    height: 20px;
+    width: 40px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.fa-shopping-cart{
+    font-size: 30px;
+}
+
+.nav-link {
+    display: grid;
+    padding: 0px;
+    margin: 20px;
+}
+
+/* .nav-link:hover {
+    display: column;
+    color: white;
+    border: 1px white solid;
+    text-decoration: none;
+} */
+
+.nav-span1 {
+    font-size: 11px;
+}
+
+.nav-span2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-basket {
+    display: flex;
+}
+
+.basket-count {
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.home-div {
+    text-align: center;
+  
+}
+
+.home-wallpaper{
+    max-width: 1500px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 100%;
+}
+
+
+.card-first{
+    width: 22rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.card-img {
+    width: 149px;
+    height: 116px;
+    padding: 7px;
+}
+
+.product-div {
+    display: flex;
+    justify-content:space-around;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 19rem;
+}
+
+.img-div {
+    width: 9rem;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-align: left;
+    padding-left: 7px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.card-link {
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
+    text-decoration: auto;
+    color: #2184b5;
+}
+
+.second-nav {
+    height: 39px;
+}
+
+.second-nav-first-element {
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.second-nav-link {
+    margin:0px;
+    color: white !important;
+    margin-top: 20px;
+}
+
+.second-nav-link-dropdown {
+    margin:0px;
+    color: white !important;
+} 
+
+.see-more {
+    float: left;
+    margin-top: 12px;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #2786cb;
+}
