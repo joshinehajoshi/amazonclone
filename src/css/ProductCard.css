@@ -30,3 +30,20 @@
     width: 100%;
 }
 
+.quantity-input {
+    width: 4rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 12px;
+    height: 2rem;
+}
+
+.quantity-wrapper {
+    text-align:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.quantity-btn {
+    border-radius: 3rem;
+}
