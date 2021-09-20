@@ -39,4 +39,5 @@
     flex-wrap: wrap;
     height: 50rem;
     overflow-y: auto;
+    justify-content: center;
 }

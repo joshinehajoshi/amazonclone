@@ -60,3 +60,14 @@
 .quantity-btn {
     border-radius: 3rem;
 }
+
+.product-card-div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.product-card-div:hover {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #bbbec2;
+}
