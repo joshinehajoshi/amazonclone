@@ -28,6 +28,7 @@
 
 .add-to-cart {
     width: 100%;
+    border-radius: 1rem;
 }
 
 .quantity-input {
@@ -36,7 +37,19 @@
     margin-right: 8px;
     border-radius: 12px;
     height: 2rem;
+    text-align: center;
+    font-size: large;
 }
+
+.quantity-input:focus-visible {
+    width: 4rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 12px;
+    height: 2rem;
+    outline: none;
+}
+
 
 .quantity-wrapper {
     text-align:center;

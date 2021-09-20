@@ -33,7 +33,7 @@ export default function ProductCarousel() {
         {
             MensWearData.map((a) => {
               return (
-                <MensWearCard imgM={a.imgM} price={a.price}/>
+                <MensWearCard imgM={a.imgM} price={a.price} />
               )
             })
           }
