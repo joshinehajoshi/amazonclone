@@ -7,8 +7,12 @@ import Home from './Components/Home';
 import CreateAccount from './Components/CreateAccount';
 import SignIn from './Components/SignIn';
 import MensWear from './Components/MensWear';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const products = useSelector(state => state);
+  console.log("products",products);
+  console.log("neha");
   return (
     <Router>
     <div className="App">

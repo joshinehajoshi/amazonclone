@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Navbar, Nav } from "react-bootstrap";
 import "../css/ProductList.css";
 import { Link } from 'react-router-dom';
+import MensWearCard  from "./MensWearCard";
+import { MensWearData } from '../Data/MensWearData';
 
 function MensWear() {
+  const [ items, setItems ] = useState("neha");
   console.log("nehahahaha");
   return (
     <div>
@@ -66,7 +69,16 @@ function MensWear() {
             <Link className="link">55% Off or more</Link><br />
             
         </div>
-        <div className="col-md-10 mens-wear-seconddiv mt-2">hi</div>
+        <div className="col-md-10 mens-wear-seconddiv mt-2">
+          {
+            MensWearData.map((a) => {
+              return (
+                <MensWearCard imgM={a.imgM} price={a.price} setItems={a}/>
+              )
+            })
+          }
+          
+          </div>
       </div>
     </div>
   );

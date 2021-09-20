@@ -1,0 +1,7 @@
+.cart-wrapper {
+    text-align: center;
+}
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}

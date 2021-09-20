@@ -3,7 +3,9 @@ import Products from './Products'
 import ProductsDetails from '../Data/ProductsDetails';
 import ProductCarousel from './ProductCarousel';
 
-function Home() {
+function Home(props) {
+    const Items = props.a
+    // console.log("a", Items);
     return (
         <div class="home-div">
             <img className="home-wallpaper" src="https://m.media-amazon.com/images/I/51UjXjBbwJL._SX3000_.jpg" alt="home-page-wallpaper" />

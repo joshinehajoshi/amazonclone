@@ -1,0 +1,13 @@
+.react-multi-carousel-item {
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 312px !important;
+}
+
+.App1 {
+    position: relative;
+    bottom: 18rem;
+    margin-left: 172px;
+    margin-right: 181px;
+}

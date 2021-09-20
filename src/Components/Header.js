@@ -2,9 +2,13 @@ import React from 'react';
 import '../css/index.css';
 import { InputGroup, FormControl, Dropdown, DropdownButton, NavDropdown, Nav, Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import counterReducer from '../reducers/counterReducer';
 
 
-function Header() {
+function Header(props) {
+  const {counterReducer} = useSelector((state) => state)
+  // console.log("state", myState[0])
     return (
       <>
      <nav className="header">
@@ -49,7 +53,7 @@ function Header() {
 
         <Link to='checkout' className='nav-link nav-basket'>
           <span ><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
-          <span className="basket-count">0</span>
+          <span className="basket-count">{counterReducer.count}</span>
           </Link>
 
 
