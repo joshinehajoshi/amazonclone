@@ -24,12 +24,13 @@ function MensWearCard(props) {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.</h6>
                 </Card.Text>
-                <Card.Text className="quantity-wrapper">
+                <Card.Text className="quantity-wrapper mt-2">
                <Button variant="dark" className="quantity-btn" ><i class="fa fa-minus" aria-hidden="true"></i></Button>
                <input className="quantity-input">{props.quantity}</input>
                <Button variant="dark" className="quantity-btn" ><i class="fa fa-plus" aria-hidden="true"></i></Button>
                 </Card.Text>
-                <Button variant="primary" className="add-to-cart" onClick={() => dispatch(counterAction(props))}>Add To Cart</Button>
+                <Button variant="primary" className="add-to-cart mt-2" onClick={() => dispatch(counterAction(props))}>Add To Cart</Button>
+                <Button variant="primary" className="add-to-cart mt-2 buy-now" >Buy Now</Button>
             </Card.Body>
         </Card>
         </>

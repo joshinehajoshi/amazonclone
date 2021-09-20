@@ -27,7 +27,7 @@ function Products(props) {
                         <p>{props.p4}</p>
                         </div>
                     </div>
-                    <Link to="/menswear" className="see-more">See more </Link>
+                    <Link to={props.a1} className="see-more">See more </Link>
                 </Card.Body>
             </Card>
         </div>

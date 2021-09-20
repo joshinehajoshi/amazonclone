@@ -13,9 +13,17 @@
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #bbbec2;
+    background-color: #774700;
     border-color: #ff9800;
 }
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #774700;
+    border-color: #ff9800;
+    box-shadow: 0 0 0 0.25rem #ff9800;
+}
+
 
 .card-img-top {
     width: 100%;
@@ -29,6 +37,28 @@
 .add-to-cart {
     width: 100%;
     border-radius: 1rem;
+}
+
+.buy-now {
+    color: white;
+    font-weight: 600;
+    background-color: #0b2130;
+    border-color: #057d81;
+}
+
+.buy-now:hover {
+    color: white;
+    font-weight: 600;
+    background-color: #557441;
+    border-color: #415f74;
+}
+
+.buy-now:focus {
+    color: white;
+    font-weight: 600;
+    background-color: #557441;
+    border-color: #415f74;
+    box-shadow: 0 0 0 0.25rem #557441;
 }
 
 .quantity-input {
@@ -53,21 +83,12 @@
 
 .quantity-wrapper {
     text-align:center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .quantity-btn {
     border-radius: 3rem;
 }
 
-.product-card-div {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 .product-card-div:hover {
-    margin-left: 1rem;
-    margin-right: 1rem;
     background-color: #bbbec2;
 }

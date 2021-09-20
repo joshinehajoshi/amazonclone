@@ -10,7 +10,7 @@ const ProductsDetails = [
         p2:"Refridgerator",
         p3:"Microwave",
         p4:"Washing-machine",
-        a1:"/menswear"
+        a1:"/home-appliances",
     },
     { 
         id: 1,
@@ -22,7 +22,8 @@ const ProductsDetails = [
         p1:"Clothing",
         p2:"Footwear",
         p3:"Watches",
-        p4:"Bags and lagguage"
+        p4:"Bags and lagguage",
+        a1:"/menswear",
     },
     {
         id: 2,
@@ -34,7 +35,8 @@ const ProductsDetails = [
         p1:"Clothing",
         p2:"Footwear + Bags",
         p3:"Watches",
-        p4:"Fashion Jewellery"
+        p4:"Fashion Jewellery",
+        a1:"/menswear",
     },
     {
         id: 3,
@@ -46,7 +48,8 @@ const ProductsDetails = [
         p1:"Baby clothing sets",
         p2:"Baby girls dresses",
         p3:"Baby boy t-shirts",
-        p4:"Explore the store"
+        p4:"Explore the store",
+        a1:"/menswear",
     },
     {
         id: 4,
@@ -58,7 +61,8 @@ const ProductsDetails = [
         p1:"Cleaning accessories",
         p2:"Tyre & rim care",
         p3:"Helmets",
-        p4:"Vacuum cleaner"
+        p4:"Vacuum cleaner",
+        a1:"/menswear",
     },
     {
         id: 5,
@@ -71,6 +75,7 @@ const ProductsDetails = [
         p2:"Cloth masks",
         p3:"Kids mask",
         p4:"View the mask store",
+        a1:"/menswear",
     },
     {
         id: 6,
@@ -82,7 +87,8 @@ const ProductsDetails = [
         p1:"Best workplace | AWS",
         p2:"Against all odds...",
         p3:"Saluting wonder women",
-        p4:"AWS: Helping bridge.."
+        p4:"AWS: Helping bridge..",
+        a1:"/menswear",
     },
     {
         id: 7,
@@ -94,7 +100,8 @@ const ProductsDetails = [
         p1:"Atta & Flour",
         p2:"Oil & Ghee",
         p3:"Rice & pulses",
-        p4:"Visit the store"
+        p4:"Visit the store",
+        a1:"/menswear",
     }
 ]
 

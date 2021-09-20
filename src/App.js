@@ -8,6 +8,7 @@ import CreateAccount from './Components/CreateAccount';
 import SignIn from './Components/SignIn';
 import MensWear from './Components/MensWear';
 import { useSelector } from 'react-redux';
+import HomeAppliances from './Components/HomeAppliances';
 
 function App() {
   const products = useSelector(state => state);
@@ -27,6 +28,7 @@ function App() {
           <SignIn />
         </Route>
         <Route path='/menswear' exact component={MensWear} />
+        <Route path='/home-appliances' exact component={HomeAppliances} />
         <Route path='/'>
           <Home />
         </Route>
