@@ -5,6 +5,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:1,
@@ -12,6 +14,9 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "green",
+        deliveryDays: 2
+
     },
     {
         id:2,
@@ -19,6 +24,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:3,
@@ -26,6 +33,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:4,
@@ -33,6 +42,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:5,
@@ -40,6 +51,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:6,
@@ -47,6 +60,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:7,
@@ -54,6 +69,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:8,
@@ -61,6 +78,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:9,
@@ -68,6 +87,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:10,
@@ -75,6 +96,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:11,
@@ -82,6 +105,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:12,
@@ -89,6 +114,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
 
     },
     {
@@ -97,6 +124,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:14,
@@ -104,6 +133,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:15,
@@ -111,6 +142,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:16,
@@ -118,6 +151,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:17,
@@ -125,6 +160,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:18,
@@ -132,6 +169,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:19,
@@ -139,6 +178,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:20,
@@ -146,6 +187,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2,
     },
 
 
@@ -155,6 +198,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2,
     },
     {
         id:22,
@@ -162,12 +207,16 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:23,
         imgM:"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6788214/2018/9/27/832e3ad9-903b-4bc5-88b5-57510df4a6291538050869863-Vero-Moda-Women-Tops-6261538050868336-1.jpg",
         price: 1000,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:24,
@@ -175,6 +224,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:25,
@@ -182,6 +233,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:26,
@@ -189,6 +242,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:27,
@@ -196,6 +251,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:28,
@@ -203,6 +260,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2,
     },
     {
         id:29,
@@ -210,6 +269,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:30,
@@ -217,6 +278,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:31,
@@ -224,6 +287,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:32,
@@ -231,6 +296,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:33,
@@ -238,6 +305,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:34,
@@ -245,6 +314,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:35,
@@ -252,6 +323,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:36,
@@ -259,6 +332,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:37,
@@ -266,12 +341,17 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:38,
         imgM:"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/14148836/2021/4/21/45682b29-7767-4263-8149-fe32d0f1a4181618988608788FOREVER21WomenNavyBlueSolid1.jpg",
         price: 1000,
-        quantity: 1
+        quantity: 1,
+        discount: 20,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:39,
@@ -279,6 +359,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:40,
@@ -286,6 +368,8 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     },
     {
         id:41,
@@ -293,5 +377,7 @@ export const MensWearData = [
         price: 1000,
         quantity: 1,
         discount:10,
+        color: "black",
+        deliveryDays: 2
     }
 ]
