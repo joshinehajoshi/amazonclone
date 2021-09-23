@@ -1,7 +1,7 @@
 const ProductsDetails = [
     {
         id: 0,
-        title: "Top picks for your home",
+        title: "Top picks for your home Upto 50% off",
         img1:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg",
         img2:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg",
         img3:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg",
@@ -10,7 +10,7 @@ const ProductsDetails = [
         p2:"Refridgerator",
         p3:"Microwave",
         p4:"Washing-machine",
-        a1:"/home-appliances",
+        a1:"/menswear",
     },
     { 
         id: 1,
@@ -40,7 +40,7 @@ const ProductsDetails = [
     },
     {
         id: 3,
-        title: "Clothing for your baby",
+        title: "Clothing for your baby upto 30% off",
         img1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/TinyTots/GW/Baby_Clothing_sets_PC_QC8_1x._SY116_CB665246385_.jpg",
         img2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/TinyTots/GW/Baby_girls_tshirts_PC_QC8_1x._SY116_CB665246385_.jpg",
         img3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/TinyTots/GW/Baby_girls_tshirts_PC_QC8_1x._SY116_CB665246385_.jpg",

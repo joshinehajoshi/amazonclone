@@ -13,7 +13,7 @@ function MensWearCard(props) {
    
     return (
         <>
-        <Card style={{ width: '18rem' }} className="product-card-div">
+        <Card style={{ width: '20rem' }} className="product-card-div">
             <Card.Img variant="top" src={props.imgM} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>

@@ -45,7 +45,7 @@ function Header(props) {
           <span className="nav-span2">SignIn</span>
         </Link>
 
-        <Link to='/' className='nav-link'>
+        <Link to='/signin' className='nav-link'>
         <span className="nav-span1">Returns</span>
         <span className="nav-span2">& Order</span>
         </Link>

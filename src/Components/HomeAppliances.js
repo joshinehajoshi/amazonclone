@@ -33,7 +33,17 @@ function HomeAppliances() {
         <div className="col-md-2 mens-wear-firstdiv mt-2">
             <h6 className="mt-2">Delivery Day</h6>
             <input type="checkbox" />
-            <label>Get it in 2 Days</label>
+            <label>Get it in 2 Days</label><br />
+            <input type="checkbox" />
+            <label>Get it in 4 Days</label><br />
+            <input type="checkbox" />
+            <label>Get it in 6 Days</label><br />
+            <input type="checkbox" />
+            <label>Get it in 10 Days</label><br />
+            <input type="checkbox" />
+            <label>Get it in 1 Days</label><br />
+            <input type="checkbox" />
+            <label>Get it in 5 Days</label><br />
             <h6 className="mt-3">Department</h6>
             <Link className="link">Clothing and Accessories</Link><br />
             <Link className="link">Shoppers Stop - Men</Link><br />
@@ -45,28 +55,11 @@ function HomeAppliances() {
             <Link className="link">Trousers</Link><br />
             <Link className="link">Winterwear</Link><br />
             <Link className="link">Accessories</Link><br />
-            <h6 className="mt-3">Brands</h6>
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <input type="checkbox" />
-            <label>Get it in 2 Days</label><br />
-            <h6 className="mt-3">Discount</h6>
             <Link className="link">10% Off or more</Link><br />
             <Link className="link">20% Off or more</Link><br />
             <Link className="link">25% Off or more</Link><br />
-            <Link className="link">35% Off or more</Link><br />
             <Link className="link">50% Off or more</Link><br />
-            <Link className="link">55% Off or more</Link><br />
+            <Link className="link">75% Off or more</Link><br />
             
         </div>
         <div className="col-md-10 mens-wear-seconddiv mt-2">

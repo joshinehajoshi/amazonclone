@@ -39,5 +39,20 @@
     flex-wrap: wrap;
     height: 50rem;
     overflow-y: auto;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.color-check {
+    margin-right: 13px;
+}
+
+.color-check-wrapper {
+    text-align: initial;
+    width: 37%;
+    margin: auto;
 }
