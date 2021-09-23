@@ -17,7 +17,7 @@ function Home(props) {
                 })}
            
             </div>
-            <ProductCarousel />
+            {/* <ProductCarousel /> */}
             
         </div>
     )

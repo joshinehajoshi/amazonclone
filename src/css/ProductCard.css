@@ -92,3 +92,65 @@
 .product-card-div:hover {
     background-color: #bbbec2;
 }
+
+.Badge {
+    width: 9rem;
+    height: 2rem;
+}
+
+.Badge-wrapper {
+    text-align: center;
+}
+
+.color-code {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.fa-circle {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+
+.circle-green {
+    color:green;
+}
+
+.circle-blue {
+    color:rgb(57, 57, 172);
+}
+
+.circle-black {
+    color:black;
+}
+
+.circle-cream {
+    color: rgb(240, 204, 174)
+}
+
+.circle-pink {
+    color:pink;
+}
+
+.circle-gray {
+    color:gray;
+}
+
+.circle-white {
+    color:white;
+}
+
+.discount-wrapper {
+    padding-left: 15px;
+    border-radius: 28px;
+    width: 54%;
+    margin: auto;
+    background-color: rgb(39 103 58);
+    color: white;
+    padding-right: 15px;
+    padding-top:4px;
+    padding-bottom: 4px;
+}
