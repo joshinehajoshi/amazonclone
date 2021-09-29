@@ -3,7 +3,7 @@ import '../css/index.css';
 import { InputGroup, FormControl, Dropdown, DropdownButton, NavDropdown, Nav, Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import counterReducer from '../reducers/counterReducer';
+// import counterReducer from '../reducers/counterReducer';
 
 
 function Header(props) {

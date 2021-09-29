@@ -3,7 +3,8 @@ const ADD_ONE = "ADD_ONE";
 // const initialState = 0;
 const initialState = {
     count: 0,
-    cardData:[]
+    cardData:[],
+    amt:1
 }
 
 
@@ -17,7 +18,19 @@ const counterReducer = (state = initialState, action) => {
                 count: state.count + 1,
                 cardData: [...state.cardData,action.data]
             }
-            return [...state.cardData, action.data]
+        // case "ADD_ONE_QUANTITY":
+        //     if(cardData => cardData.id === action.data.id) {
+        //         return {
+        //             amt: state.amt + 1
+        //         }
+        //     }
+        //     break;
+        // case "SUB_ONE_QUANTITY":
+        //     if(cardData => cardData.id === action.data.id) {
+        //         return {
+        //             amt: state.amt - 1
+        //         }
+        //     }
                  
         default:
             return state;

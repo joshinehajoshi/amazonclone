@@ -6,13 +6,13 @@ export const counterAction = (data) => {
     }
 }
 
-export const quantityIncrementAction = () => {
+export const quantityIncrementAction = (data) => {
     return {
         type: "ADD_ONE_QUANTITY",
     }
 }
 
-export const quantityDecrementAction = () => {
+export const quantityDecrementAction = (data) => {
     return {
         type: "SUB_ONE_QUANTITY",
     }

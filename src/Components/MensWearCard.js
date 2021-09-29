@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { Card, Button, Badge } from 'react-bootstrap';
 import '../css/ProductCard.css';
 import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { counterAction, quantityIncrementAction, quantityDecrementAction } from '../actions/index';
 
 function MensWearCard(props) {
-    // console.log("props",props.setItems.color)
+  const {prodIncrementReducer} = useSelector((stateIncre) => stateIncre)
+  console.log("counterReducer", prodIncrementReducer);
     const dispatch = useDispatch()
     const [quantity, setQuantity] = useState(1);
-
+    // console.log("13",props.setItems.quantity)
 
    
     return (
@@ -53,9 +55,9 @@ function MensWearCard(props) {
                 Some quick example text to build on the card title </h6>
                 </Card.Text>
                 <Card.Text className="quantity-wrapper mt-2">
-               <Button variant="dark" className="quantity-btn" ><i class="fa fa-minus" aria-hidden="true"></i></Button>
-               <input className="quantity-input">{props.quantity}</input>
-               <Button variant="dark" className="quantity-btn" ><i class="fa fa-plus" aria-hidden="true"></i></Button>
+               <Button variant="dark" className="quantity-btn" onClick={() => dispatch(quantityDecrementAction(props))} ><i class="fa fa-minus" aria-hidden="true"></i></Button>
+               <input className="quantity-input" value={prodIncrementReducer.amt}></input>
+               <Button variant="dark" className="quantity-btn" onClick={() => dispatch(quantityIncrementAction(props))} ><i class="fa fa-plus" aria-hidden="true"></i></Button>
                 </Card.Text>
                 <Button variant="primary" className="add-to-cart mt-2" onClick={() => dispatch(counterAction(props))}>Add To Cart</Button>
                 <Button variant="primary" className="add-to-cart mt-2 buy-now" >Buy Now</Button>
